@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
   <head>
     <meta charset="UTF-8" />
@@ -39,18 +39,93 @@
         src="/images/inside_coffee_shop.png"
         alt="Inside coffee shop"
       />
-      <section class="header-info">
+      <div class="header-info">
         <div class="header-hours">
           <p class="info-text">Horario:</p>
           <p class="info-text">Lunes a Viernes (de 10:00h a 19:00h)</p>
           <p class="info-text">Sábados y Domingos (de 11:00h a 18:00h)</p>
         </div>
         <p class="info-text">Avenida del Éxito 200, Ciudad Triple Peaks</p>
-      </section>
+      </div>
     </header>
     <main class="content">
-      <section class="reservation" id="reservation"></section>
+      <section class="reservation" id="reservation">
+        <h2 class="reservation__title">Reservar una mesa</h2>
+        <form class="form" action="" method="get">
+          <fieldset class="fieldset">
+            <label class="labels" for="nombre">Nombre *</label>
+            <input
+              class="inputs"
+              type="text"
+              placeholder="Nombre"
+              required
+              id="nombre"
+            />
+            <label class="labels" for="number">Número de comensales *</label>
+            <input
+              class="inputs"
+              type="number"
+              placeholder="1-8"
+              required
+              min="1"
+              max="2"
+              id="number"
+            />
+            <label class="labels" for="date">Fecha y hora *</label>
+            <input class="inputs" type="datetime-local" required id="date" />
+            <label class="labels" for="email">Tu correo electrónico *</label>
+            <input
+              class="inputs"
+              type="email"
+              placeholder="email@email.com"
+              required
+              id="email"
+            />
+          </fieldset>
+          <button class="button" type="submit">Reserva una mesa</button>
+          <label class="labels checkbox">
+            <input
+              class="inputs checkbox__input"
+              type="checkbox"
+              required
+            />Acepto los términos de uso</label
+          >
+        </form>
+      </section>
     </main>
-    <footer class="footer" id="contacts"></footer>
+    <footer class="footer" id="contacts">
+      <div class="footer__content">
+        <img
+          class="footer__logo"
+          src="./images/logo_coffeeshop_light.svg"
+          alt="Triple Expresso"
+        />
+        <div class="circle"></div>
+        <div class="social">
+          <h3 class="social__title">Redes sociales</h3>
+          <ul class="social__list">
+            <li class="social__list-item">
+              <a class="list__link" href="#">
+                <img
+                  class="social__icon"
+                  src="./images/facebook_white.svg"
+                  alt="Facebook"
+                />Facebook</a
+              >
+            </li>
+            <li class="social__list-item">
+              <a class="list__link" href="#">
+                <img
+                  class="social__icon"
+                  src="./images/instagram_white.svg"
+                  alt="Instagram"
+                />Instagram</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+      <p class="copyright">© 2026 Samuel S.</p>
+    </footer>
   </body>
 </html>

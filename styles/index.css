@@ -1,5 +1,7 @@
 @import url("./normalize.css");
 @import url("./header.css");
+@import url("./reservation.css");
+@import url("./footer.css");
 
 * {
   box-sizing: border-box;

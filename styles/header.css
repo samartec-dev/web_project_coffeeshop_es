@@ -38,6 +38,10 @@
   color: black;
 }
 
+.nav-link:hover {
+  color: #ff976b;
+}
+
 .header-title {
   display: flex;
   position: relative;
