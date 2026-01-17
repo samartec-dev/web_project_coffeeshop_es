@@ -24,7 +24,7 @@
   justify-content: space-between;
 }
 
-.nav-links {
+.nav__links {
   display: flex;
   gap: 20px;
   list-style-type: none;
