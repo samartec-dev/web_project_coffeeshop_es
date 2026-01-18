@@ -54,18 +54,20 @@
       <section class="reservation" id="reservation">
         <h2 class="reservation__title">Reservar una mesa</h2>
         <form class="reservation__form" action="" method="get">
-          <fieldset class="fieldset">
-            <label class="labels" for="nombre">Nombre *</label>
+          <fieldset class="form__fieldset">
+            <label class="form__label" for="nombre">Nombre *</label>
             <input
-              class="inputs"
+              class="form__input"
               type="text"
               placeholder="Nombre"
               required
               id="nombre"
             />
-            <label class="labels" for="number">Número de comensales *</label>
+            <label class="form__label" for="number"
+              >Número de comensales *</label
+            >
             <input
-              class="inputs"
+              class="form__input"
               type="number"
               placeholder="1-8"
               required
@@ -73,11 +75,18 @@
               max="2"
               id="number"
             />
-            <label class="labels" for="date">Fecha y hora *</label>
-            <input class="inputs" type="datetime-local" required id="date" />
-            <label class="labels" for="email">Tu correo electrónico *</label>
+            <label class="form__label" for="date">Fecha y hora *</label>
             <input
-              class="inputs"
+              class="form__input"
+              type="datetime-local"
+              required
+              id="date"
+            />
+            <label class="form__label" for="email"
+              >Tu correo electrónico *</label
+            >
+            <input
+              class="form__input"
               type="email"
               placeholder="email@email.com"
               required
@@ -85,9 +94,9 @@
             />
           </fieldset>
           <button class="button" type="submit">Reserva una mesa</button>
-          <label class="labels checkbox">
+          <label class="form__label checkbox">
             <input
-              class="inputs checkbox__input"
+              class="form__input checkbox__input"
               type="checkbox"
               required
             />Acepto los términos de uso</label

@@ -24,7 +24,7 @@
   justify-content: center;
 }
 
-.fieldset {
+.form__fieldset {
   margin: 0;
   border: none;
   width: 100%;
@@ -33,13 +33,13 @@
   padding: 0;
 }
 
-.labels {
+.form__label {
   font-size: 20px;
   padding-bottom: 8px;
   line-height: 30px;
 }
 
-.inputs {
+.form__input {
   background: white;
   border: solid 1px #838383;
   color: #838383;
