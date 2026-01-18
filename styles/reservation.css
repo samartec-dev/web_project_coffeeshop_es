@@ -17,11 +17,14 @@
   margin: 0 auto 80px;
 }
 
-.reservation__form {
-  max-width: 385px;
+.form {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+}
+
+.reservation__form {
+  max-width: 385px;
 }
 
 .form__fieldset {

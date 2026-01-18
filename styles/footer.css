@@ -18,7 +18,7 @@
   z-index: 1;
 }
 
-.circle {
+.footer__circle {
   position: absolute;
   left: -40px;
   top: -128px;
@@ -68,7 +68,7 @@
   color: #ffd6c5;
 }
 
-.copyright {
+.footer__copyright {
   margin: 0;
   color: white;
 }
