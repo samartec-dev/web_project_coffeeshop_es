@@ -17,7 +17,7 @@
   margin-bottom: 80px;
 }
 
-.form {
+.reservation__form {
   max-width: 385px;
   display: flex;
   flex-wrap: wrap;
