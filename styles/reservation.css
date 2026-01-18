@@ -69,7 +69,7 @@
   opacity: 0.7;
 }
 
-.checkbox {
+.form__label_checkbox {
   padding: 0;
   display: flex;
   align-items: center;
