@@ -61,3 +61,4 @@ Estas son ideas para llevar el proyecto a un nivel más cercano a un sitio real 
 
 Samuel Sánchez Martínez  
 Proyecto de bootcamp — TripleTen
+Ver el proyecto en https://samartec-dev.github.io/web_project_coffeeshop_es/
